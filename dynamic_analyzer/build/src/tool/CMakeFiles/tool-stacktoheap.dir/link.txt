@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -march=native -fno-rtti -O3 -DNDEBUG -O3 -w "CMakeFiles/tool-stacktoheap.dir/ToolStackToHeap.cpp.o" -o ../../bin/tool-stacktoheap  -Wl,-rpath,/usr/lib/llvm-18/lib: ../libStackToHeapLib.a ../libRuleActionCallbackLib.a /usr/lib/llvm-18/lib/libclang-cpp.so.18.1 /usr/lib/llvm-18/lib/libLLVM-18.so.1

@@ -42,8 +42,12 @@ def install_csmith():
                 f.write(response.content)
         with zipfile.ZipFile(csmith_src_zip, "r") as zip_ref:
             zip_ref.extractall(csmith_src)
-        os.system(f'cd {csmith_src}/csmith-csmith-2.3.0/ && cmake -DCMAKE_INSTALL_PREFIX={csmith_home} . && make -j4 && make install')
-
+        os.system(
+                f'cd "{csmith_src}/csmith-csmith-2.3.0/" && '
+                f'cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.5 '
+                f'-DCMAKE_INSTALL_PREFIX="{csmith_home}" . && '
+                f'make -j4 && make install'
+            )
 def check_available_csmith() -> bool:
     csmith_home = Path(__file__).parent / "csmith_install"
     if not csmith_home.exists():

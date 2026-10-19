@@ -1,0 +1,2 @@
+/usr/bin/ar qc libStackToHeapLib.a CMakeFiles/StackToHeapLib.dir/StackToHeap.cpp.o
+/usr/bin/ranlib libStackToHeapLib.a

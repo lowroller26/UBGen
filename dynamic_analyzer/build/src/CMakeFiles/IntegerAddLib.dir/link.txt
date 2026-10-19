@@ -1,0 +1,2 @@
+/usr/bin/ar qc libIntegerAddLib.a CMakeFiles/IntegerAddLib.dir/IntegerAdd.cpp.o
+/usr/bin/ranlib libIntegerAddLib.a

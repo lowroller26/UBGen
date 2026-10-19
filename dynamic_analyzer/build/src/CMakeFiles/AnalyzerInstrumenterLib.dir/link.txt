@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAnalyzerInstrumenterLib.a CMakeFiles/AnalyzerInstrumenterLib.dir/AnalyzerInstrumenter.cpp.o
+/usr/bin/ranlib libAnalyzerInstrumenterLib.a

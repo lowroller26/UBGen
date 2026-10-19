@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRuleActionCallbackLib.a CMakeFiles/RuleActionCallbackLib.dir/RuleActionCallback.cpp.o
+/usr/bin/ranlib libRuleActionCallbackLib.a
